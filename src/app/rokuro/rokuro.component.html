@@ -1,0 +1,14 @@
+<canvas
+  class="base"
+  #rokuroBase
+  width="500"
+  height="500"
+></canvas>
+<canvas
+  #rokuro
+  width="500"
+  height="500"
+  (mousedown)="onMouseDown($event)"
+  (mousemove)="onMouseMove($event)"
+  (mouseup)="onMouseUp()"
+></canvas>
